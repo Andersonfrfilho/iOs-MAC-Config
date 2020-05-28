@@ -14,7 +14,8 @@
 3. Install Visual Code (<https://code.visualstudio.com/download>)
    * install download
    * add varaible envoriment
-     * 
+     * shift + ctrl + p
+     * install code
    * Extensions
      * Dracula Theme ()
      * Material Icon Theme
@@ -117,4 +118,30 @@
       }
     ```
   *
- 
+4. install zsh/ohmyzsh/sapceship.
+   * theme dracula for terminal
+   * https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
+5. git
+   * git config
+     * $ git config --global user.name "John Doe"
+     * $ git config --global user.email johndoe@example.com
+   * cd ~
+     * code .gitconfig
+     ```
+     [alias]
+  ci = commit
+  co = checkout
+  cm = checkout master
+  cb = checkout -b
+  st = status -sb
+  sf = show --name-only
+  lg = log --pretty=format:'%Cred%h%Creset %C(bold)%cr%Creset %Cgreen<%an>%Creset %s' --max-count=30
+  incoming = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' ..@{u})
+  outgoing = !(git fetch --quiet && git log --pretty=format:'%C(yellow)%h %C(white)- %C(red)%an %C(white)- %C(cyan)%d%Creset %s %C(white)- %ar%Creset' @{u}..)
+  unstage = reset HEAD --
+  undo = checkout --
+  rollback = reset --soft HEAD~1
+  ```
+  
+     
+
