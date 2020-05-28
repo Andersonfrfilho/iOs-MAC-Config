@@ -127,7 +127,7 @@
      * $ git config --global user.email johndoe@example.com
    * cd ~
      * code .gitconfig
-     ```
+```
      [alias]
   ci = commit
   co = checkout
@@ -141,7 +141,7 @@
   unstage = reset HEAD --
   undo = checkout --
   rollback = reset --soft HEAD~1
-  ```
+```
   
      
 
